@@ -6,5 +6,5 @@ PORT = 8080
 Handler = http.server.SimpleHTTPRequestHandler
 
 with socketserver.TCPServer(("",PORT), Handler) as httpd:
-    print("========== Connected on PORT " + str(PORT) + "==========")
+    print("========== Sup Fool, you're Connected on PORT " + str(PORT) + "==========")
     httpd.serve_forever()
